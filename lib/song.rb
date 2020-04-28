@@ -26,7 +26,7 @@ class Song
 
   def self.create_from_filename(name)
     song = self.new
-    song.name = new
+    song.name = (name.spilt)
 
   def self.destroy_all()
     @@all.clear
