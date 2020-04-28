@@ -24,6 +24,8 @@ class Song
   def self.find_by_name
   end
 
+  def self.
+
   def self.create_from_filename(name)
     song = self.new
     song.name = (name.spilt(" - ")[1].chomp(".mp3"))
