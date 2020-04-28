@@ -28,7 +28,9 @@ class Song
     song = self.new
     song.name = (name.spilt(" - ")[1].chomp(".mp3"))
     song.artist_name = (name.split(" - ")[0])
-    @@all << 
+    @@all << song
+    song
+  end
 
   def self.destroy_all()
     @@all.clear
