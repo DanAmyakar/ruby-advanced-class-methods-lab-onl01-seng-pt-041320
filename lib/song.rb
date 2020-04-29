@@ -10,7 +10,7 @@ class Song
     self.class.all << self
   end
 
-  
+  def self.alphabetical
 
   def self.new_from_filename(name)
     song = self.new
