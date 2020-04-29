@@ -10,8 +10,11 @@ class Song
     self.class.all << self
   end
 
+  
+
   def self.find_by_name(name)
-    @@all.find{|a|a.name}
+    @@all.find{|a| a.name == name}
+  end
 
   def self.find_or_create_by_name(name)
     #if self.find_or_create_by_name(name) == nil
