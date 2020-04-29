@@ -11,7 +11,7 @@ class Song
   end
 
   def self.create_by_name(name)
-    
+    song = 
 
   def self.find_by_name(name)
     @@all.find{|a| a.name == name}
