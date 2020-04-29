@@ -11,7 +11,7 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
-    #if self.
+    #if self.find_or_create_by_name
 
   def self.alphabetical()
     @@all.sort_by{|a|a.name}
