@@ -10,7 +10,8 @@ class Song
     self.class.all << self
   end
 
-  
+  def self.find_by_name(name)
+    
 
   def self.find_or_create_by_name(name)
     #if self.find_or_create_by_name(name) == nil
