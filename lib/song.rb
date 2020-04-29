@@ -11,7 +11,7 @@ class Song
   end
 
   def self.find_by_name(name)
-    @@all.find{|a|}
+    @@all.find{|a|a.name}
 
   def self.find_or_create_by_name(name)
     #if self.find_or_create_by_name(name) == nil
