@@ -11,7 +11,7 @@ class Song
   end
 
   def self.alphabetical()
-    @@all.sort
+    @@all.sort_by{|a|a}
 
   def self.new_from_filename(name)
     song = self.new
